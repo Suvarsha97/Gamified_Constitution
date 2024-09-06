@@ -1,0 +1,64 @@
+/* Basic styling */
+body {
+    scroll-behavior: smooth;
+    background-color: #ffe1ff;
+  }
+  
+  
+  .section {
+    padding: 80px 0;
+    min-height: 100vh;
+    background-color: #e8dede;
+  }
+  
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .mascot img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: #f5f6f700;
+  }
+  
+  /* Fixed navbar styling */
+  .navbar {
+    transition: all 0.4s ease;
+  }
+  
+  .navbar a {
+    color: #ffffffb6 !important;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effect for navbar links */
+  .navbar a:hover {
+    transform: translateY(-5px); /* Hover up by 5px */
+    color: #dddddd00 !important;
+  }
+  
+  /* Section background */
+  .section {
+    background-color: #f8f9fa73;
+    margin-top: 100px;
+  }
+  
+  /* Button hover effect */
+  button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #007bff; /* Change color on hover (for primary buttons) */
+    transform: scale(1.05);    /* Slightly enlarge the button on hover */
+    color: #ffffff !important;
+  }
+  
+  /* Secondary button hover (for 'Play Game' buttons in the about section) */
+  button.btn-success:hover {
+    background-color: #28a745; /* Change color on hover (for success buttons) */
+  }
+  
+  
